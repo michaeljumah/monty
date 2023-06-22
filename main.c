@@ -1,4 +1,5 @@
 #include "monty.h"
+stack_t *head = NULL;
 
 /**
  * main - Entry 2 the program.
@@ -14,4 +15,3 @@ int main(int argc, char **argv)
 	free_node();
 	return (0);
 }
-

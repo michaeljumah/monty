@@ -70,6 +70,6 @@ int int_line(char *string, int _line, int format)
 	else if (strcmp(op_code, "stack") == 0)
 		return (0);
 
-	srch_func(op_code, cmd, _line, format);
+	search_func(op_code, cmd, _line, format);
 	return (format);
 }
