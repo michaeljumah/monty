@@ -40,6 +40,7 @@ typedef struct instruction_s
 } instruction_t;
 
 extern stack_t *head;
+/*stack_t *head = NULL;*/
 
 typedef void (*op_func)(stack_t **, unsigned int);
 ssize_t getline(char **lineptr, size_t *n, FILE *stream);
